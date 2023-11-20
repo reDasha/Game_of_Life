@@ -9,9 +9,8 @@
 #define WIDTH 80
 
 void input_field(int field[HEIGHT][WIDTH]);
-void draw_field(int field[HEIGHT][WIDTH]);
+void draw_field(int field[HEIGHT][WIDTH], int *generation_counter);
 int neighbour_counter(int field[HEIGHT][WIDTH], int i, int j);
-int get_neighbours(int field[HEIGHT][WIDTH], int i, int j);
-void game_rules(int field[HEIGHT][WIDTH]);
+void get_next_generation(int field[HEIGHT][WIDTH], int *generation_counter);
 
 #endif
