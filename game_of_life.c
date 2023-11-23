@@ -12,7 +12,7 @@ int main() {
 
   initscr();
   start_color();
-  init_pair(1, COLOR_CYAN , COLOR_BLACK);
+  init_pair(1, COLOR_CYAN, COLOR_BLACK);
   nodelay(stdscr, TRUE);
   curs_set(0);
   noecho();
