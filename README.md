@@ -15,7 +15,7 @@ $ ./game < spaceship.txt
 
 ## control keys
 ```
-a - to reduce speed;
-d - to increase speed;
+a - to reduce speed,
+d - to increase speed,
 q - to exit.
 ```
